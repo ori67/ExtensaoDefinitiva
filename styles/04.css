@@ -1,0 +1,183 @@
+* {
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 30%;
+    background-color: rgb(130, 130, 240);
+    position: static;
+    box-shadow: 1px 1px 15px 15px rgba(0, 0, 0, 0.25);
+    background-image: url(cisneOri2.avif);
+    
+    
+}
+nav {
+    height: 100%;
+    width: 100%;
+
+}
+#logoImg {
+    width: 50%;
+    height: 50%;
+    margin: 2% 5% 1%;
+    
+}
+
+#imgDiv {
+    width: 49%;
+    height: 100%;
+    margin: 0;
+    display: inline-block;
+   vertical-align: top;
+    
+}
+
+#divButtons {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    margin: auto;
+}
+.buttonNav1 {
+    background:  white;
+    width: 100%;
+    height: 75px;
+    border: 1px solid rgb(104, 104, 207);
+    border-radius: 100px;
+    box-shadow: 0 0 10px black;
+    font-size: 30px;
+    font-style: oblique;
+    font-stretch: condensed;
+    background-image: url(ori2.jpg);
+}
+
+.buttonNav1:hover {
+    box-shadow: 0 0 15px black;
+    text-decoration: underline;
+    padding-left: 3%;
+}
+.buttonNav2 {
+    background:  rgb(32, 202, 214);
+    width: 100%;
+    height: 75px;
+    border: 1px solid  rgb(130, 130, 240);
+    border-radius: 100px;
+    box-shadow: 0 0 10px black;
+    font-size: 30px;
+    font-style: oblique;
+    font-stretch: condensed;
+    background-image: url(ori2.jpg);
+}
+.buttonNav2:hover {
+    box-shadow: 0 0 15px black;
+    text-decoration: underline;
+    padding-left: 3%;
+}
+.buttonNav3 {
+    background:  rgb(236, 151, 22);
+    width: 100%;
+    height: 75px;
+    border: 1px solid  rgb(130, 130, 240);
+    border-radius: 100px;
+    box-shadow: 0 0 10px black;
+    font-size: 30px;
+    font-style: oblique;
+    font-stretch: condensed;
+    background-image: url(ori2.jpg);
+}
+.buttonNav3:hover {
+    box-shadow: 0 0 15px black;
+    text-decoration: underline;
+    padding-left: 3%;
+}
+.buttonNav4 {
+    background:  rgb(197, 50, 160);
+    width: 100%;
+    height: 75px;
+    border: 1px solid  rgb(130, 130, 240);
+    border-radius: 100px;
+    box-shadow: 0 0 10px black;
+    font-size: 30px;
+    font-style: oblique;
+    font-stretch: condensed;
+    background-image: url(ori2.jpg);
+}
+.buttonNav4:hover {
+    box-shadow: 0 0 15px black;
+    text-decoration: underline;
+    padding-left: 3%;
+}
+main {
+    width: 90%;
+    
+}
+.list {
+    width: 85%;
+    border: 1px rgb(17, 17, 17);
+    margin: 2% auto 5%;
+    
+    
+}
+.divP1 {
+    width: 49%;
+    margin: 0 2% 0;
+    display: inline-block;
+
+}
+.divP2 {
+    width: 40%;
+    margin: 0 2% 0;
+    display: inline-block;
+    vertical-align: top;
+
+}
+#p1 {
+    text-align: justify;
+    display: inline-block;
+    
+}
+#p2 {
+    text-align: justify;
+    display: inline-block;
+   
+}
+#apresentacao{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    padding: 10% 0 7%;
+    text-shadow: 3px 3px 2px rgb(95, 95, 95);
+    margin-right: 5%;
+    margin-left: 7%;
+
+
+}
+footer {
+    width: 100%;
+    margin: 0 0 0 ;
+}
+#footerButton {
+    margin: 0 49% 0;
+    width: 5%;
+    height: 20%;
+    
+}
+#footerButton:hover {
+    padding-left:2%;
+    
+
+   
+}
+
+
+
+
+
+
+
