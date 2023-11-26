@@ -5,10 +5,10 @@
     let meuSrc = imagem.getAttribute("src") ;
         
     
-         if(meuSrc==="images/redesocial2.jpg") {
-            imagem.setAttribute("src", "images/grafos.jpg" )
+         if(meuSrc==="images/bigData.jpg") {
+            imagem.setAttribute("src", "images/dados.jpg" )
          }else{
-            imagem.setAttribute("src", "images/redesocial2.jpg")
+            imagem.setAttribute("src", "images/bigData.jpg")
          }
         })
         let imagemP = document.querySelector("#FotoP")
@@ -17,10 +17,10 @@
         let meuSrc = imagemP.getAttribute("src") ;
             
         
-             if(meuSrc==="images/euler.jpg") {
-                imagemP.setAttribute("src", "images/pontes.jpg" )
+             if(meuSrc==="images/dados2.jpg") {
+                imagemP.setAttribute("src", "images/dados3.jpg" )
              }else{
-                imagemP.setAttribute("src", "images/euler.jpg")
+                imagemP.setAttribute("src", "images/dados2.jpg")
              }
             })
 
@@ -31,10 +31,10 @@
             let meuSrc = imagemP2.getAttribute("src") ;
                 
             
-                 if(meuSrc==="images/manuel.jpg") {
-                    imagemP2.setAttribute("src", "images/livrocastells.webp" )
+                 if(meuSrc==="images/mark-no-senado.jpg") {
+                    imagemP2.setAttribute("src", "images/ceocram.jpg" )
                  }else{
-                    imagemP2.setAttribute("src", "images/manuel.jpg")
+                    imagemP2.setAttribute("src", "images/mark-no-senado.jpg")
                  }
                 })
 
@@ -45,10 +45,10 @@
                 let meuSrc = imagemP3.getAttribute("src") ;
                     
                 
-                     if(meuSrc==="images/zuck.webp") {
-                        imagemP3.setAttribute("src", "images/dadosface.png" )
+                     if(meuSrc==="images/informal.jpg") {
+                        imagemP3.setAttribute("src", "images/galo.jpeg")
                      }else{
-                        imagemP3.setAttribute("src", "images/zuck.webp")
+                        imagemP3.setAttribute("src", "images/informal.jpg")
                      }
                     })
 
@@ -61,10 +61,10 @@
         let meuSrc2 = imagem2.getAttribute("src") ;
             
         
-             if(meuSrc2==="images/primaveraArabe.avif") {
-                imagem2.setAttribute("src", "images/qanon.jpg" )
+             if(meuSrc2==="images/ArmasDestruicao_Thumbnail_01.jpg") {
+                imagem2.setAttribute("src", "images/ifood.jpg" )
              }else{
-                imagem2.setAttribute("src", "images/primaveraArabe.avif")
+                imagem2.setAttribute("src", "images/ArmasDestruicao_Thumbnail_01.jpg")
              }
             })
         

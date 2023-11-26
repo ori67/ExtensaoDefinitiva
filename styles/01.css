@@ -1,173 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Linefont:wght@100&display=swap');
+
+
 * {
     margin: 0 auto;
-    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
 }
 html {
+    margin: 0 auto;
+    background-color: rgb(240, 250, 250);
     width: 100%;
-    height: 100%;
-    margin: 0;
 }
+
+
 header {
     width: 100%;
     height: 30%;
     background-color: rgb(130, 130, 240);
-    position: static;
-    box-shadow: 1px 1px 15px 15px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.25);
     background-image: url(cisneOri2.avif);
+   
     
     
 }
 nav {
     height: 100%;
     width: 100%;
+    font-size: 0;
 
 }
+.divNav{
+    height: 100%;
+    width: 100%;
+    font-size: 0;
+}
 #logoImg {
-    width: 50%;
-    height: 50%;
-    margin: 2% 5% 1%;
-    
+    width: max(60%, 5vw);
+    height: max(60%, 5vw);
+
 }
 
 #imgDiv {
-    width: 49%;
+    width: 50%;
     height: 100%;
-    margin: 0;
     display: inline-block;
-   vertical-align: top;
+    vertical-align: top;
     
 }
 
 #divButtons {
     width: 50%;
-    height: 100%;
-    display: inline-block;
-    margin: auto;
-}
-.buttonNav1 {
-    background:  white;
-    width: 100%;
-    height: 75px;
-    border: 1px solid rgb(104, 104, 207);
-    border-radius: 100px;
-    box-shadow: 0 0 10px black;
-    font-size: 30px;
-    font-style: oblique;
-    font-stretch: condensed;
-    background-image: url(ori2.jpg);
-}
-
-.buttonNav1:hover {
-    box-shadow: 0 0 15px black;
-    text-decoration: underline;
-    padding-left: 3%;
-}
-.buttonNav2 {
-    background:  rgb(32, 202, 214);
-    width: 100%;
-    height: 75px;
-    border: 1px solid  rgb(130, 130, 240);
-    border-radius: 100px;
-    box-shadow: 0 0 10px black;
-    font-size: 30px;
-    font-style: oblique;
-    font-stretch: condensed;
-    background-image: url(ori2.jpg);
-}
-.buttonNav2:hover {
-    box-shadow: 0 0 15px black;
-    text-decoration: underline;
-    padding-left: 3%;
-}
-.buttonNav3 {
-    background:  rgb(236, 151, 22);
-    width: 100%;
-    height: 75px;
-    border: 1px solid  rgb(130, 130, 240);
-    border-radius: 100px;
-    box-shadow: 0 0 10px black;
-    font-size: 30px;
-    font-style: oblique;
-    font-stretch: condensed;
-    background-image: url(ori2.jpg);
-}
-.buttonNav3:hover {
-    box-shadow: 0 0 15px black;
-    text-decoration: underline;
-    padding-left: 3%;
-}
-.buttonNav4 {
-    background:  rgb(197, 50, 160);
-    width: 100%;
-    height: 75px;
-    border: 1px solid  rgb(130, 130, 240);
-    border-radius: 100px;
-    box-shadow: 0 0 10px black;
-    font-size: 30px;
-    font-style: oblique;
-    font-stretch: condensed;
-    background-image: url(ori2.jpg);
-}
-.buttonNav4:hover {
-    box-shadow: 0 0 15px black;
-    text-decoration: underline;
-    padding-left: 3%;
-}
-main {
-    width: 90%;
-
-    
-}
-.divMasterP {
-    width: 100%;
-    border: 1px rgb(17, 17, 17);
-    margin: 5% 5px 5%;
-    
-}
-.divP1 {
-    width: 49%;
-    margin: 0 2% 0;
-    display: inline-block;
-
-}
-.divP2 {
-    width: 40%;
-    margin: 0 2% 0;
     display: inline-block;
     vertical-align: top;
+}
+.buttonNav1 {
+    width: 50%;
+    height: 50%;
+}
+
+.buttonNav2 {
+    width: 50%;
+    height: 50%;
 
 }
-#p1 {
-    text-align: justify;
-    display: inline-block;
+
+.buttonNav3 {
+    width: 50%;
+    height: 50%;
+}
+
+.buttonNav4 {
+    width: 50%;
+    height: 50%;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(240, 250, 250);
     
 }
-#p2 {
-    text-align: justify;
-    display: inline-block;
-   
-}
-#apresentacao{
-    text-align: center;
-    font-size: 60px;
-    color: black;
-    padding: 10% 0 7%;
-    text-shadow: 3px 3px 2px rgb(95, 95, 95);
-   margin: 0 auto;
 
-
-}
 #pVazio {
     margin: 2% auto 2%;
     text-align: center;
     font-size: 20px;
 }
+
 #divInput {
-    margin: 2% auto 2%;
+    width: 50%;
+    margin: 2% auto 10%;
     text-align: center;
 
 }
 #textoDigitado {
+    width: 50%;
     font-size: 30px;
     width: 30%;
     height: 40px;
@@ -180,22 +106,157 @@ main {
 }
 #buttonInput {
     display: inline-block;
-    width: 15%;
+    width: 30%;
     height: 43px;
     background-color: rgb(205, 252, 252);
     border: 1px solid black;
     border-radius: 10px;
     vertical-align: top;
+    text-align: center;
     
 }
 
+#tituloMain {
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px rgb(95, 95, 95);
+    font-size: max(15px, 5vw);
+    width: 98%;
+    margin: 10% auto;
+    padding: 0 1% 0;
+   
+
+}
+
+.divImg {
+    width: max(70%, 5vw);
+    height: max(70%, 5vw);
+    margin: 10% auto;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 4px rgb(58, 58, 58);
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+#Foto01 {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+   
+  
+   
+}
+#Foto02 {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+  
+   
+}
+#FotoP {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+  
+   
+}
+#FotoP2 {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+  
+   
+}
+#FotoP3 {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+  
+   
+}
+#pimg {
+    text-align: center;
+    
+}
+.divMasterP {
+    width: 100%;
+    border: 1px rgb(17, 17, 17);
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.divP1 {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;   
+    padding-right: 3%;
+
+
+
+}
+.divP2 {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;    
+  
+
+
+
+
+}
+a {
+    text-decoration: none;
+}
+h2 {
+    text-align: left;
+    padding: 10% 0;
+    text-shadow: 1px 1px 1px rgb(95, 95, 95);
+    font-size: max(10px, 2vw);
+}
+p {
+    font-size: max(20px, 3vw);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+#p1 {
+    text-align: justify;    
+    font-size: max(5px, 1.3vw);
+    font-family: Arial, Helvetica, sans-serif;
+
+   
+
+}
+#p2 {
+    text-align: justify;
+    font-size: max(5px, 1.3vw);
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+   
+}
+.quebra {
+    padding-bottom: 10%;
+    font-size: max(5px, 1.3vw);
+}
+
+
+
+
+
 footer {
     width: 100%;
-    margin: 0 0 0 ;
-    color: white
+    text-align: center;
+    margin-top: 10%;
 }
 #footerButton {
-    margin: 0 49% 0;
     width: 5%;
     height: 20%;
     
